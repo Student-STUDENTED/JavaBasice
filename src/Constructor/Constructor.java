@@ -2,16 +2,16 @@ package Constructor;
 
 class B {
 
-    B(int a){
+    B(int a) {
         // constructor
     }
 
 
-    private B(){
+    private B() {
         System.out.println("Private constructor");
     }
 
-    void  method(){
+    void method() {
         B b = new B();
     }
 
